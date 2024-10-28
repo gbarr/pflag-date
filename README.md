@@ -1,5 +1,6 @@
 # pflag-date #
 [![Go Reference](https://pkg.go.dev/badge/github.com/gbarr/pflag-date.svg)](https://pkg.go.dev/github.com/gbarr/pflag-date)
+[![codecov](https://codecov.io/github/gbarr/pflag-date/graph/badge.svg?token=WCV5JUZHFY)](https://codecov.io/github/gbarr/pflag-date)
 
 [`pflag-date`](https://github.com/gbarr/pflag-date) implements a Golang [`pflag.Value`](https://pkg.go.dev/github.com/spf13/pflag#Value) interface for `YYYY-MM-DD`-specified dates.
 Combining [github.com/spf13/pflag](https://pkg.go.dev/github.com/spf13/pflag) with [github.com/hardfinhq/go-date](https://pkg.go.dev/github.com/hardfinhq/go-date).
