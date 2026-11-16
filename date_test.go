@@ -15,6 +15,10 @@ func TestDate(t *testing.T) {
 		t.Errorf("unexpected type name %q", dt.Type())
 	}
 
+	if str := dt.String(); str != "" {
+		t.Errorf("unexpected default value: %q", str)
+	}
+
 	flag := &pflag.Flag{
 		Name:      "date",
 		Shorthand: "d",

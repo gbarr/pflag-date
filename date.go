@@ -19,6 +19,9 @@ func (*Date) Type() string {
 // String implements pflag.Value.String().
 // Returns date formatted as time.DateOnly.
 func (d *Date) String() string {
+	if d.IsZero() {
+		return ""
+	}
 	return d.Date.String()
 }
 
